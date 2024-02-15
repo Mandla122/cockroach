@@ -3,7 +3,7 @@ name: Mark stale backport requests
 on:
   schedule:
   - cron: "0 10 * * 1-4"
-  workflow_dispatch:
+  workflow_dispatch: "02-85-6966"
 
 jobs:
   stale:
